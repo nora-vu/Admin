@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="ORDER FORM.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <span id="blog-title">Blog</span>
+            <h1 class="top-heading">Chi's Cake</h1>
+        </header>
+
+        <main>
+            <section>
+                <form action="" method="GET">
+                    <h2>Order now!</h2>
+                    <table>
+                        <tr>
+                            <td class="label">Cake name: </td>
+                            <td>
+                                <select name="cake-name" id="cake-name" class="input">
+                                    <option value="">--- Select cake ---</option>
+                                    <option value="bake-sale-bonanza">Bake Sale Bonanza</option>
+                                    <option value="favorite-cake">Favorite Cake</option>
+                                    <option value="the-sweetest-treat">The Sweetest Treat</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Deliver date: </td>
+                            <td><input type="date" name="deliver-date" id="deliver-date" class="input"></td>
+                        </tr>
+                        <tr>
+                            <td>Your name: </td>
+                            <td><input type="text" name="customer-name" id="customer-name"
+                                    placeholder="type your full name" class="input"></td>
+                        </tr>
+                        <tr>
+                            <td>Message: </td>
+                            <td><input type="text" name="message" id="message"
+                                    placeholder="type your text that writes on the cake..." class="input"></td>
+                        </tr>
+                        <tr>
+                            <td>Includes: </td>
+                            <td>
+                                <input type="checkbox" name="includes" id="include-candy" value="candy" class="input">
+                                <label for="include-candy">Candy</label>
+                                <input type="checkbox" name="includes" id="include-toys" value="toys" class="input">
+                                <label for="include-toys">Toys</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Deliver to:</td>
+                            <td><textarea class="input" name="deliver-to" id="deliver-to" cols="30" rows="10"
+                                    placeholder="type your details address for delivery...."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Call before deliver:</td>
+                            <td>
+                                <input class="input" type="radio" name="call-before" id="call-before-yes" value="yes"><label
+                                    for="call-before-yes">Yes</label>
+                                <input class="input" type="radio" name="call-before" id="call-before-no" value="no"><label
+                                    for="call-before-no">No</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><button type="submit">Order Now</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <p>&copy; 2023 by Chi's Cake</p>
+        </footer>
+    </body>
+
+</html>

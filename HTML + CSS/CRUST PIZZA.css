@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f4c983;
+}
+header {
+    text-align: center;
+    background-color: #30475e;
+    color: #e40017;
+    background-position: center;
+    background-size: 1000px;
+    text-shadow: 2px 2px black;
+    border-style:ridge;
+    border-color: #5b6d5b;
+}
+header > p {
+    text-decoration: underline;
+}
+span {
+    color: #e40017;
+}
+section > h2::before {
+    content: url(images/Icon.png);
+}
+h2 {
+    color: #484018
+}
+h2 + p {
+    color: #03506f
+}
+section {
+    border: #5b6d5b solid;
+}
+header:hover {
+    color: #e8e8e8;
+}
+h2:hover {
+    color: #e40017;
+}
